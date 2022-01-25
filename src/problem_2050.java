@@ -8,8 +8,7 @@ public class problem_2050 {
         char[] alp = sen.toCharArray();
 
         for(int i=0; i<alp.length; i++){
-            //A = 65
-            System.out.print((int)alp[i] - 64  + " ");
+            System.out.print((int)alp[i] - 64 + " ");
         }
     }
 }
