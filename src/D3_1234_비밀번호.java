@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class D3_1234_비밀번호 {
@@ -31,7 +30,6 @@ public class D3_1234_비밀번호 {
                     if(i == arr.size()-2) state = false;
                 }
                 if(state == false) {
-                    System.out.println(arr);
                     break;
                 }
             }
