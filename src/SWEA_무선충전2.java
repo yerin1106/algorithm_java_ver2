@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+// 모의 SW 역량테스트
 public class SWEA_무선충전2 {
     static int A;
     static int rax = 1, ray = 1, rbx = 10, rby = 10;
