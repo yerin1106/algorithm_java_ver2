@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class D4_7465_창용마을무리의개수 {
@@ -52,6 +51,7 @@ public class D4_7465_창용마을무리의개수 {
             }
 
             int cnt = 0;
+            //자기 자신을 가리키는 것이 대표자, 대표자 찾기
             for(int i=1; i<parents.length; i++){
                 if(parents[i] == i) cnt++;
             }
