@@ -52,7 +52,6 @@ public class D4_7465_창용마을무리의개수 {
             }
 
             int cnt = 0;
-            int[] tmp = new int[parents.length];
             for(int i=1; i<parents.length; i++){
                 if(parents[i] == i) cnt++;
             }
