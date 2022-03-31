@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// Brute Force
 public class BJ_14501_퇴사 {
     static int[] t;
     static int[] p;
