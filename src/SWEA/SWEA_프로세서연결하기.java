@@ -34,10 +34,10 @@ public class SWEA_프로세서연결하기 {
         int t = Integer.parseInt(br.readLine());
 
         for(int tc = 1; tc<=t; tc++){
-            n = Integer.parseInt(br.readLine());
+            n = Integer.parseInt(br.readLine()); // 셀의 크기
 
             map = new int[n][n];
-            list = new ArrayList<>();
+            list = new ArrayList<>(); //가장자리가 아닌 코어리스트
             for(int i=0; i<n; i++){
                 st = new StringTokenizer(br.readLine());
                 for(int j=0; j<n; j++){
@@ -49,8 +49,8 @@ public class SWEA_프로세서연결하기 {
                 }
             }
 
-            min = Integer.MAX_VALUE;
-            max = 0;
+            min = Integer.MAX_VALUE; //최소 전선 길이의 합
+            max = 0; //최대 연결 코어수
 
             dfs(0,0,0);
 
