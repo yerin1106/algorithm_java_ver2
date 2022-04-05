@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 04.05
 public class BJ_4963_섬의개수 {
     static int w, h;
     static int[][] map;
