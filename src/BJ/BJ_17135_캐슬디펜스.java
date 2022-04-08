@@ -100,6 +100,7 @@ public class BJ_17135_캐슬디펜스 {
 
             // visited가 true인 좌표만 적을 처지한다.
             // 궁수가 같은 적을 쏠 수도 있기 때문에 바로 바로 map[i][j] = 0하면 안 된다.
+            // 바로 0으로 하면 그거 제외하고 가까운 것을 찾기 때문 (틀린 포인트!!!)
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {
                     if (visited[i][j]) {
